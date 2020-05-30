@@ -28,6 +28,7 @@
                 display: flex;
                 flex-direction: column;
                 align-items: flex-start;
+                width: fit-content;
                 label{
                     font-size: 20px;
                
@@ -56,8 +57,8 @@
         }
 
     }
-    .footer{
+    .footer {
         margin-top: 3em;
-
+       
     }
 }
