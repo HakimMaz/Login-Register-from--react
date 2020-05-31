@@ -54,6 +54,44 @@
 
 
             }
+            
+        }
+        .form-register{
+            margin-top: 2em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .form-group-register{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                width: fit-content;
+                label{
+                    font-size: 15px;
+               
+                }
+                input{
+                    margin-top: 2px;
+                    min-width: 18em;
+                    height: 30px;
+                    padding: 0px 10px;
+                    font-size: 16px;
+                    font-family: "open Sans",sans-serif;
+                    background-color: #f3f3f3;
+                    border: 0;
+                    border-radius: 4px;
+                    margin-bottom: 17px;
+                    transition: all 250ms ease-in-out;
+                    &:focus{
+                        outline: none;
+                        box-shadow: 0px 0px 12px 0.8px #0e81ce96;
+                    }
+
+                }
+
+
+            }
+            
         }
 
     }

@@ -9,7 +9,7 @@ export default class Login extends Component{
 
     render(){
         return(
-      <div className="base-container">
+      <div className="base-container" ref={this.props.contrainerRef}>
         <div className="header">Login</div>
         <div className="content">
           <div className="image">
